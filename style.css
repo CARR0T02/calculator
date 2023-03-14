@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Remove default margin, padding and fix font */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/*
+  Typographic tweaks!
+  Add accessible line-height
+  Improve text rendering
+*/
+body {
+  line-height: 1.5;
+}
+
+:root {
+  --clr-primary-100: rgb(219, 219, 219);
+  --clr-primary-300: rgb(184, 184, 184);
+  --clr-primary-400: rgb(151, 151, 151);
+  --clr-primary-500: rgb(128, 128, 128);
+  --clr-primary-700: rgb(56, 56, 56);
+  --clr-alternate-400: rgb(255, 187, 0);
+
+  --fs-300: 3rem;
+  --fs-600: 6rem;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50rem;
+  height: 70rem;
+  margin: 5rem auto 0 auto;
+  gap: 0.5rem;
+  background-color: var(--clr-primary-700);
+  padding: 1.5rem;
+}
+
+#answerBar {
+  grid-column: 1 / 5;
+  font-size: var(--fs-600);
+  text-align: right;
+  background-color: var(--clr-primary-300);
+}
+
+.bigButton {
+  grid-column: 1 / 3;
+}
+
+button {
+  background-color: var(--clr-primary-400);
+  border: var(--clr-primary-500);
+  font-size: var(--fs-300);
+}
+
+#answerBar,
+#container,
+button {
+  border-radius: 1.5rem;
+}
