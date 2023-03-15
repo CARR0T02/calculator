@@ -20,8 +20,8 @@ body {
 }
 
 :root {
-  --clr-primary-100: rgb(219, 219, 219);
-  --clr-primary-300: rgb(184, 184, 184);
+  --clr-primary-100: rgb(228, 226, 226);
+  --clr-primary-300: rgb(184, 183, 183);
   --clr-primary-400: rgb(151, 151, 151);
   --clr-primary-500: rgb(128, 128, 128);
   --clr-primary-700: rgb(56, 56, 56);
@@ -46,7 +46,7 @@ body {
   grid-column: 1 / 5;
   font-size: var(--fs-600);
   text-align: right;
-  background-color: var(--clr-primary-300);
+  background-color: var(--clr-primary-100);
 }
 
 .bigButton {
@@ -63,4 +63,12 @@ button {
 #container,
 button {
   border-radius: 1.5rem;
+}
+
+.clr-orange {
+  background-color: var(--clr-alternate-400);
+}
+
+.clr-lgrey {
+  background-color: var(--clr-primary-300);
 }
