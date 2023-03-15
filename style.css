@@ -42,11 +42,12 @@ body {
   padding: 1.5rem;
 }
 
-#answerBar {
+#displayBar {
   grid-column: 1 / 5;
   font-size: var(--fs-600);
   text-align: right;
   background-color: var(--clr-primary-100);
+  padding: 1rem;
 }
 
 .bigButton {
@@ -59,7 +60,7 @@ button {
   font-size: var(--fs-300);
 }
 
-#answerBar,
+#displayBar,
 #calculator,
 button {
   border-radius: 1.5rem;
