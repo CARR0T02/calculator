@@ -31,7 +31,7 @@ body {
   --fs-600: 6rem;
 }
 
-#container {
+#calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 50rem;
@@ -60,7 +60,7 @@ button {
 }
 
 #answerBar,
-#container,
+#calculator,
 button {
   border-radius: 1.5rem;
 }
@@ -71,4 +71,8 @@ button {
 
 .clr-lgrey {
   background-color: var(--clr-primary-300);
+}
+
+.hovering {
+  filter: brightness(0.9);
 }
