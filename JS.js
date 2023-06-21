@@ -96,10 +96,8 @@ function misc(misc) {
       currOperator = "";
       updateDisplay();
       break;
-    // Negative button does not work
     case "--":
       firstNum *= -1;
-      display = firstNum.toString();
-      return display;
+      updateDisplay(firstNum);
   }
 }
