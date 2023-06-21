@@ -48,6 +48,8 @@ body {
   text-align: right;
   background-color: var(--clr-primary-100);
   padding: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .bigButton {
